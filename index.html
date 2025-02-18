@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM: Home</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header is going to presenting introduction info- the main idea of the website, later will be seleceted by CSS rule. -->
+    <header>
+        <!-- Div will group class attribute than can later be selected by a CSS rule-->
+        <div class="container">
+            <!-- h1 give the largest looking text in the page, amking the name stand out. -->
+            <h1>Intercontinental Mythical Beasts</h1>
+        </div> 
+        <!-- this tag will be for navigation -->
+        <div class="nav" id="thisNav">
+            <a href="index.html" class="active">Home</a>
+            <a href="africa.html">Africa</a>
+            <a href="asia.html">Asia</a>
+            <a href="europe.html">Europe</a>
+            <a href="northamerica.html">North America</a>
+            <a href="oceania.html">Oceania</a>
+            <a href="southamerica.html">South America</a>
+        </div>
+    </header>
+    <!-- I use the section tag to define a section of the webpage. This section will expalin to the user what this site is about and how to use it. It will reference the id attribute "webInfo" so that it's easier to style the section with CSS.-->
+    <section id="webInfo">
+        <div class="container1">
+            <!-- I use this h2 tag because it is smaller than the h1 tag, but still helps to distinguish a subheader like About Me. -->
+            <h2>Site Info</h2>
+            <!-- I use this p tag to write my paragraph. It will make the text more legible for the reader. -->
+            <p>Welcome to Intercontinental Mythical Beasts! This site explores various mythical beasts from across the world. This site currently explains 
+            <!-- I chose to use javascript here because this number can be subject to change if I decide to update the number of beasts in the future. -->
+            <span id="numAdjust">bigNum</span> beasts!. This is not an exhaustive list of all mythical beasts, but an exploration of a few from each continent. Feel free to learn more if this topic peaks your interest!</p>
+
+            <h2>Why Mythical Beasts?</h2>
+
+            <p>Myths are a great way to learn about different cultures. People have different practices, traditions, likes, dislikes, and fears. Mythical beasts are one way to glimpse at the world. The world has so many stories to tell.</p>
+
+            <p>Mythical beasts are a very interesting topic. Whether you're new to mythical beasts or a long-time fan, this site is a brief introduction to some lesser known beasts (and some classics!) If you'd like to learn more you can choose to look into some of the site's links, search online, or do your own research. Libraries are a great option as well. </p>
+
+            <h2>This site is great for:</h2>
+
+            <!-- This ul tag will help me create an unordered list for who this site ia aimed for -->
+            <ul>
+                <!-- This li tag will define a list item. -->
+                <li>mystery buffs</li>
+                <li>those who enjoy learning about diverse cultures</li>
+                <li>anyone and everyone who's curious</li>
+    
+            </ul>
+
+            <h2>How to Navigate this Site</h2>
+
+            <p>Each beast will have a short description, an image depicting it, and a link for you to learn more from external sources if you wish! Additionally, each beast on this site is organized by continent. Each continent can be found on the navigation bar at the top of each page. Here on the Homepage, you can also find a map image displaying the approximate locations of the beasts.</p>
+
+    
+            <!-- tag for including an image -->
+            <img src="img/world_map.jpg" title="World map picture">
+            <p><cite>https://www.pexels.com/photo/flight-landscape-bird-people-5725589/</cite></p>
+        </div>
+
+    </section>
+
+
+
+    <!-- This tag makes a footer at the bottom of the webpage. I use it to put a little copyright notice.-->
+    <footer><p>Christine Jacinto, Copyright 2021</p></footer>
+    <!-- Christine Jacinto, Copyright &copy;
+            <script>
+                var today = new Date();
+                document.write(today.getFullYear());
+            </script> -->
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>18
